@@ -58,7 +58,7 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
                     animate={{ rotateX: [0, 5, 0] }}
                     transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
                   >
-                    I'M
+                    I&apos;M
                   </motion.span>
                   <motion.span
                     className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-green-400 bg-clip-text text-transparent"
@@ -175,7 +175,7 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
                     onClick={() => setIsBookingOpen(true)}
                     className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-black text-lg px-10 py-4 rounded-2xl cursor-magnetic"
                   >
-                    💬 LET'S BUILD
+                    💬 LET&apos;S BUILD
                   </Button>
                 </motion.div>
               </motion.div>
