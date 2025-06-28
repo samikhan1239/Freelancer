@@ -25,7 +25,7 @@ export const Navigation = ({ currentSection, scrollToSection, setIsBookingOpen }
           whileHover={{ scale: 1.1, rotate: 5 }}
           className="text-3xl font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-green-400 bg-clip-text text-transparent cursor-magnetic"
         >
-          ⚡ NEXUS
+          ⚡ SAMI
         </motion.div>
 
         {/* Desktop Menu */}

@@ -58,7 +58,7 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
                     animate={{ rotateX: [0, 5, 0] }}
                     transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
                   >
-                    I&apos;M
+                    I'M
                   </motion.span>
                   <motion.span
                     className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-green-400 bg-clip-text text-transparent"
@@ -74,7 +74,7 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
                       backgroundSize: "200% 200%",
                     }}
                   >
-                    NEXUS
+                    SAMI
                   </motion.span>
                 </motion.h1>
 
@@ -174,10 +174,8 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
                     variant="outline"
                     onClick={() => setIsBookingOpen(true)}
                     className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-black text-lg px-10 py-4 rounded-2xl cursor-magnetic"
-                   
-                  
                   >
-                    💬 LET&apos;S BUILD
+                    💬 LET'S BUILD
                   </Button>
                 </motion.div>
               </motion.div>
@@ -330,19 +328,19 @@ export const HeroSection = ({ scrollToSection, setIsBookingOpen }: HeroSectionPr
 
               {/* Floating Terminal */}
               <motion.div
-                className="absolute -bottom-16 -right-8 w-72 h-40 bg-black/95 rounded-xl border border-green-400/30 backdrop-blur-sm overflow-hidden"
+                className="absolute bottom-0 right-0 sm:-bottom-4 sm:-right-4 w-60 h-32 sm:w-72 sm:h-40 bg-black/95 rounded-xl border border-green-400/30 backdrop-blur-sm overflow-hidden"
                 initial={{ opacity: 0, scale: 0.8, y: 50 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ delay: 1.5, duration: 0.8 }}
                 whileHover={{ scale: 1.05 }}
               >
-                <div className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border-b border-green-400/20">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="text-green-400 font-mono text-sm ml-2">nexus@terminal</span>
+                <div className="flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-2 bg-gray-900/80 border-b border-green-400/20">
+                  <div className="w-2 h-2 sm:w-3 sm:h-3 bg-red-500 rounded-full"></div>
+                  <div className="w-2 h-2 sm:w-3 sm:h-3 bg-yellow-500 rounded-full"></div>
+                  <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
+                  <span className="text-green-400 font-mono text-xs ml-2">SAMI@terminal</span>
                 </div>
-                <div className="p-3 font-mono text-xs space-y-1">
+                <div className="p-2 sm:p-3 font-mono text-[0.65rem] sm:text-xs space-y-1">
                   <motion.div
                     className="text-green-400"
                     initial={{ opacity: 0 }}
