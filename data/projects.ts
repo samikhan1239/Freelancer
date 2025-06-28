@@ -70,7 +70,7 @@ export const portfolioItems = [
     title: "Love Sync",
     description:
       "A full-stack matrimonial platform with admin-approved profiles and ML-enhanced matching logic.",
-    image: "/love.png",
+    image: "/Lovesync1.png",
     tech: ["Next.js", "PostgreSQL", "Neon", "Node.js", "Tailwind CSS", "Prisma", "TensorFlow"],
     category: "Full Stack",
     price: "$8,200",

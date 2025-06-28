@@ -56,7 +56,7 @@ const topProjects = [
     title: "Love Sync",
     description:
       "A full-stack matrimonial site with admin-approved profiles and mutual match consent, ensuring privacy with ML-enhanced recommendations.",
-    image: "/love.png",
+    image: "/Lovesync1.png",
     tech: ["Next.js", "PostgreSQL", "Neon", "Node.js", "Tailwind CSS", "Prisma", "TensorFlow"],
     category: "Full Stack",
     price: "$8,200",
